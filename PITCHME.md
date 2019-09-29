@@ -30,11 +30,13 @@ A propos de la stack TICK
 ## Amélioration de TELEGRAF
 
 configuration du partage de fichier avec docker
-1- aller dans virtualbox pour désigner un dossier
-2- ouvrir un cmd ou powershell et exécuter la commande 
-'''
+@ol
+- aller dans virtualbox pour désigner un dossier
+- ouvrir un cmd ou powershell et exécuter la commande 
+```
 docker-machine restart
-'''
+```
+@olend
 +++
 ## Mise en place de Kapacitor
 ---
