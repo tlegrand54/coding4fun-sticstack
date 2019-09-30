@@ -30,3 +30,10 @@ docker run -d --rm --net=container:influxdb telegraf
 docker pull chronograf:latest 
 docker run -d --rm --name chronograf --network=influxdb -p 8888:8888 chronograf --influxdb-url=http://influxdb:8086
 @snapend
++++
+@snap[north span-100]
+## Configuration des redirections de port
+@snapend
+@snap[midpoint span-100]
+@img[](assets/img/redirection.png)
+@snapend
