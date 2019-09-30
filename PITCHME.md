@@ -26,7 +26,7 @@
 @snapend
 
 @snap[midpoint span-100]
-@box[Pull influxdb](
+@box[bg-blue text-white waved box-padding](
     docker pull influxdb:lastest
     docker run -d -rm --name influxdb -p 8080:8080 - p8086:8086 influxdb
 )
