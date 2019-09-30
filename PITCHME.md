@@ -1,9 +1,9 @@
 # Coding4Fun
 ## A propos de la stack TICK
 ---
-@span{north span-100}
+@snap[north span-100]
 # Objectif
-@spanend
+@snapend
 
 ![intro](assets/img/intro.png)
 
@@ -21,16 +21,16 @@
 ---
 # Installation la stack TICK avec Docker
 +++
-@span[north span-100]
+@snap[north span-100]
 ## Recupération d'une image influxdb
-@spanend
+@snapend
 
-@span[midpoint span-100]
+@snap[midpoint span-100]
 @box[Pull influxdb](
     docker pull influxdb:lastest
     docker run -d -rm --name influxdb -p 8080:8080 - p8086:8086 influxdb
 )
-@spanend
+@snapend
 +++
 ## Recupération d'une image telegraf
 
