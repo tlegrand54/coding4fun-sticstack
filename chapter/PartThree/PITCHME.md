@@ -16,9 +16,10 @@ configuration du partage de fichier avec docker
 @snapend
 
 +++
-@snap[midpoint span-50]
+
 docker run telegraf telegraf config > telegraf.config
-@snapend
+docker run -d --rm --name telegraf --net=influxdb -v /Docker/telegraf.conf:/etc/telegraf/telegraf.conf:ro telegraf
+
 
 +++
 ## Mise en place de Kapacitor
