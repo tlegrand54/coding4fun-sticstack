@@ -1,5 +1,5 @@
-Coding4Fun
-A propos de la stack TICK
+#Coding4Fun
+##A propos de la stack TICK
 ---
 # Objectif
 ---
@@ -17,6 +17,7 @@ A propos de la stack TICK
 # Installation la stack TICK avec Docker
 +++
 ## Recupération d'une image influxdb
+@code[
 
 +++
 ## Recupération d'une image telegraf
@@ -27,16 +28,18 @@ A propos de la stack TICK
 ---
 # Amélioration de la stack TICK
 +++
+@snap[north span-50]
 ## Amélioration de TELEGRAF
+@snapend
 
 configuration du partage de fichier avec docker
 @ol
 - aller dans virtualbox pour désigner un dossier
 - ouvrir un cmd ou powershell et exécuter la commande 
+@olend
 ```
 docker-machine restart
 ```
-@olend
 +++
 ## Mise en place de Kapacitor
 ---
