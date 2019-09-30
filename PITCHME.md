@@ -41,11 +41,13 @@
 +++
 @snap[north span-100]
 configuration du partage de fichier avec docker
+@snapend
+@snap[midpoint span-100]
 @ol
 - aller dans virtualbox pour désigner un dossier
 - ouvrir un cmd ou powershell et exécuter la commande 
 @olend
-```
+```docker
 docker-machine restart
 ```
 @snapend
