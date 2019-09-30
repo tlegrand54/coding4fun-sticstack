@@ -42,15 +42,14 @@
 @snap[north span-100]
 configuration du partage de fichier avec docker
 @snapend
+
 @snap[midpoint span-100]
 @ol
 - aller dans virtualbox pour désigner un dossier
-- ouvrir un cmd ou powershell et exécuter la commande 
+- ouvrir un cmd ou powershell et exécuter la commande `docker-machine restart`
 @olend
-```docker
-docker-machine restart
-```
 @snapend
+
 +++
 ## Mise en place de Kapacitor
 
