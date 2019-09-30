@@ -1,7 +1,9 @@
-@titleCoding4Fun
+@title{Coding4Fun}
 ##A propos de la stack TICK
 ---
 # Objectif
+![intro](assets/img/intro.png)
+
 ---
 # Presentation de la stack TICK
 +++
@@ -17,7 +19,7 @@
 # Installation la stack TICK avec Docker
 +++
 ## Recupération d'une image influxdb
-@code[
+
 
 +++
 ## Recupération d'une image telegraf
