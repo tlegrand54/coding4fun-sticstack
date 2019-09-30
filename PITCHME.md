@@ -32,24 +32,24 @@ docker network create influxdb
 ## Recupération d'une image influxdb
 @snapend
 @snap[west span-100]
-docker pull influxdb:lastest 
-docker run -d -rm --name influxdb --network=influxdb -p 8083:8083 -p 8086:8086 influxdb
+docker pull influxdb:latest 
+docker run -d --rm --name influxdb --network=influxdb -p 8083:8083 -p 8086:8086 influxdb
 @snapend
 +++
 @snap[north span-100]
 ## Recupération d'une image telegraf
 @snapend
 @snap[west span-100]
-docker pull telegraf:lastest 
-docker run -d --name telegraf --network:influxdb -p 8080:8080 - p8086:8086 influxdb
+docker pull telegraf:latest 
+docker run -d --rm --net=container:influxdb telegraf
 @snapend
 +++
 @snap[north span-100]
 ## Recupération d'une image Chronograf
 @snapend
 @snap[west span-100]
-docker pull influxdb:lastest 
-docker run -d -rm --name influxdb -p 8080:8080 - p8086:8086 influxdb
+docker pull chronograf:latest 
+docker run -d --rm --name chronograf --network=influxdb -p 8888:8888 chronograf --influxdb-url=http://influxdb:8086
 @snapend
 ---
 # Amélioration de la stack TICK
@@ -63,15 +63,16 @@ configuration du partage de fichier avec docker
 @snap[west span-100]
 @ol
 - aller dans virtualbox pour désigner un dossier
-- ouvrir un cmd ou powershell et exécuter la commande 
-````
-docker-machine restart
-````
+- ouvrir un cmd ou powershell et exécuter la commande `docker-machine restart`
 @olend
 @snapend
 
 +++
 ## Mise en place de Kapacitor
++++
+@snap[west span-100]
+docker pull kapacitor:latest
+docker run -d --name kapacitor --network:influxdb kapacitor
+@snapend
 
----
-# Allez plus loin
+---?include=chapter/PITCHME.md
