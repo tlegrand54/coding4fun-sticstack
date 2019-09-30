@@ -28,7 +28,7 @@
 ---
 # Amélioration de la stack TICK
 +++
-@snap[north span-10]
+@snap[north span-100]
 ## Amélioration de TELEGRAF
 @snapend
 
