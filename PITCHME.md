@@ -1,4 +1,4 @@
-#Coding4Fun
+@titleCoding4Fun
 ##A propos de la stack TICK
 ---
 # Objectif
@@ -28,7 +28,7 @@
 ---
 # Amélioration de la stack TICK
 +++
-@snap[north span-50]
+@snap[north span-10]
 ## Amélioration de TELEGRAF
 @snapend
 
