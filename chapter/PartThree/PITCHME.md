@@ -1,19 +1,22 @@
 # Amélioration de la stack TICK
 +++
 ## Amélioration de TELEGRAF
+
 +++
+@transition[none]
 @snap[north span-100]
 configuration du partage de fichier avec docker
 @snapend
 
-@snap[west span-50]
+@snap[midpoint span-50]
 @ol
 - aller dans virtualbox pour désigner un dossier @img[](assets/img/shareFolder.png)
 - ouvrir un cmd ou powershell et exécuter la commande `docker-machine restart`
 @olend
 @snapend
 
-@snap[east span-50]
++++
+@snap[midpoint span-50]
 docker run telegraf telegraf config > telegraf.config
 @snapend
 
