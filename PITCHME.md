@@ -24,14 +24,14 @@
 @snap[north span-100]
 ## Création d'un réseau inter-container
 @snapend
-@snap[midpoint span-100]
+@snap[west span-100]
 docker network create influxdb
 @snapend
 +++
 @snap[north span-100]
 ## Recupération d'une image influxdb
 @snapend
-@snap[midpoint span-100]
+@snap[west span-100]
 docker pull influxdb:lastest 
 docker run -d -rm --name influxdb --network=influxdb -p 8083:8083 -p 8086:8086 influxdb
 @snapend
@@ -39,7 +39,7 @@ docker run -d -rm --name influxdb --network=influxdb -p 8083:8083 -p 8086:8086 i
 @snap[north span-100]
 ## Recupération d'une image telegraf
 @snapend
-@snap[midpoint span-100]
+@snap[west span-100]
 docker pull telegraf:lastest 
 docker run -d --name telegraf --network:influxdb -p 8080:8080 - p8086:8086 influxdb
 @snapend
@@ -47,7 +47,7 @@ docker run -d --name telegraf --network:influxdb -p 8080:8080 - p8086:8086 influ
 @snap[north span-100]
 ## Recupération d'une image Chronograf
 @snapend
-@snap[midpoint span-100]
+@snap[west span-100]
 docker pull influxdb:lastest 
 docker run -d -rm --name influxdb -p 8080:8080 - p8086:8086 influxdb
 @snapend
@@ -60,7 +60,7 @@ docker run -d -rm --name influxdb -p 8080:8080 - p8086:8086 influxdb
 configuration du partage de fichier avec docker
 @snapend
 
-@snap[midpoint span-100]
+@snap[west span-100]
 @ol
 - aller dans virtualbox pour désigner un dossier
 - ouvrir un cmd ou powershell et exécuter la commande 
