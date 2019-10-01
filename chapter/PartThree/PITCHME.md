@@ -8,12 +8,12 @@
 ### configuration du partage de fichier avec docker
 @snapend
 
-@snap[west span-100]
+@snap[west span-50]
 aller dans virtualbox pour désigner un dossier 
 @snapend
 
-@snap[west span-100]
-@img[](assets/img/shareFolder.png)
+@snap[west span-50]
+@img[span-50](assets/img/shareFolder.png)
 @snapend
 
 +++
@@ -23,7 +23,7 @@ exécuter la commande `docker-machine restart`
 @box[bg-red text-white rounded box-padding](Il faudra redémarrer les containers suite à cette command `docker start container_name`)
 @snapend
 
-+++
++++?color=white
 docker run telegraf telegraf config > telegraf.config
 
 ```
