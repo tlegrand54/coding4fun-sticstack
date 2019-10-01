@@ -16,7 +16,7 @@ aller dans virtualbox pour désigner un dossier
 @img[span-100](assets/img/shareFolder.png)
 @snapend
 
-@snap[south span-50]
+@snap[south span-100]
 ouvrir un cmd ou powershell
 exécuter la commande `docker-machine restart`
 @snapend
