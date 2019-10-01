@@ -37,12 +37,12 @@ docker run -d --rm --name telegraf --net=influxdb -v /Docker/telegraf.conf:/etc/
 @snap[north span-100 text-05]
 ## Mise en place de Kapacitor
 @snapend
-@snap[west span-50]
+@snap[west span-50 text-07]
 docker pull kapacitor:latest
 docker run -d --rm --name kapacitor --network=influxdb -p 9092:9092 kapacitor
 docker run --rm kapacitor kapacitord config > kapacitor.conf
 @snapend
 @snap[east span-50]
-@css[text-04](Il faut modifier l'url par `http://kapacitor:9092/`)
-@img[span-60](assets/img/kapacitor_config.png)
+@css[text-07](Il faut modifier l'url par `http://kapacitor:9092/`)
+@img[span-70](assets/img/kapacitor_config.png)
 @snapend
