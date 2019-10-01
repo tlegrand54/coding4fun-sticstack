@@ -1,4 +1,7 @@
+@snap[text-08]
 # Amélioration de la stack TICK
+@snapend
+
 +++
 @snap[north span-100 text-05]
 ## Amélioration de TELEGRAF
