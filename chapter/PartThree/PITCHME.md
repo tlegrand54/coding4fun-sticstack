@@ -5,12 +5,14 @@
 +++
 @snap[north span-100 text-05]
 ## Amélioration de TELEGRAF
+### configuration du partage de fichier avec docker
 @snapend
 
-configuration du partage de fichier avec docker
-
-@snap[midpoint span-100]
+@snap[west span-100]
 aller dans virtualbox pour désigner un dossier 
+@snapend
+
+@snap[west span-100]
 @img[](assets/img/shareFolder.png)
 @snapend
 
@@ -24,8 +26,10 @@ exécuter la commande `docker-machine restart`
 +++
 docker run telegraf telegraf config > telegraf.config
 
-@box[]([[outputs.influxdb]]
-    urls = ["http://influxdb:8086"])
+```
+[[outputs.influxdb]]
+    urls = ["http://influxdb:8086"]
+```
 
 docker run -d --rm --name telegraf --net=influxdb -v /Docker/telegraf.conf:/etc/telegraf/telegraf.conf:ro telegraf
 
