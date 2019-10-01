@@ -36,6 +36,6 @@ docker run -d --rm --name chronograf --network=influxdb -p 8888:8888 chronograf 
 @snap[north span-100 text-05]
 ## Configuration des redirections de port
 @snapend
-@snap[south span-100]
+@snap[midpoint span-100]
 @img[](assets/img/redirection.png)
 @snapend
