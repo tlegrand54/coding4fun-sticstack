@@ -16,11 +16,9 @@ aller dans virtualbox pour désigner un dossier
 @img[span-100](assets/img/shareFolder.png)
 @snapend
 
-+++
+@snap[south span-50]
 ouvrir un cmd ou powershell
 exécuter la commande `docker-machine restart`
-@snap[south span-100]
-@box[bg-red text-white rounded box-padding](Il faudra redémarrer les containers suite à cette command `docker start container_name`)
 @snapend
 
 +++?color=white
