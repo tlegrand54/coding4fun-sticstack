@@ -6,3 +6,4 @@
 ---?include=chapter/PartTwo/PITCHME.md
 ---?include=chapter/PartThree/PITCHME.md
 ---?include=chapter/End/PITCHME.md
+---?include=chapter/Annexe/PITCHME.md
