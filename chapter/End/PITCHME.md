@@ -1,6 +1,8 @@
+@snap[north span-100 text-04]
 # Allez plus loin
+@snapend
 @transition[none]
-@snap[west]
+@snap[midpoint]
 @ol
 - [docker Hub Influxdb](https://hub.docker.com/_/influxdb)
 - [docker Hub Telegraf](https://hub.docker.com/_/telegraf)
