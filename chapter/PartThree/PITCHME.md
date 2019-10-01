@@ -12,8 +12,8 @@
 aller dans virtualbox pour désigner un dossier 
 @snapend
 
-@snap[west span-50]
-@img[span-50](assets/img/shareFolder.png)
+@snap[east span-50]
+@img[span-100](assets/img/shareFolder.png)
 @snapend
 
 +++
@@ -24,6 +24,7 @@ exécuter la commande `docker-machine restart`
 @snapend
 
 +++?color=white
+@snap[west span-200]
 docker run telegraf telegraf config > telegraf.config
 
 ```
@@ -32,7 +33,7 @@ docker run telegraf telegraf config > telegraf.config
 ```
 
 docker run -d --rm --name telegraf --net=influxdb -v /Docker/telegraf.conf:/etc/telegraf/telegraf.conf:ro telegraf
-
+@snapend
 +++
 @snap[north span-100 text-05]
 ## Mise en place de Kapacitor
