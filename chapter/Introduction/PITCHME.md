@@ -2,4 +2,6 @@
 # Objectif
 @snapend
 
-@img[clean-img span-60](assets/img/intro.png)
+@snap[south span-100]
+  @img[span-100](assets/img/intro.png)
+@snapend
