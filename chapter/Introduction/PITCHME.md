@@ -2,4 +2,4 @@
 # Objectif
 @snapend
 
-@img[](assets/img/intro.png)
+@img[clean-img span-60](assets/img/intro.png)
