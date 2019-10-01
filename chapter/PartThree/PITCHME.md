@@ -42,9 +42,7 @@ docker pull kapacitor:latest
 docker run -d --rm --name kapacitor --network=influxdb -p 9092:9092 kapacitor
 docker run --rm kapacitor kapacitord config > kapacitor.conf
 @snapend
-@snap[north-east span-50]
-@img[span-50](assets/img/kapacitor_config.png)
-@snapend
-@snap[south-east span-50]
-Il faut modifier l'url par `http://kapacitor:9092/`
+@snap[east span-50]
+@css[text-04](Il faut modifier l'url par `http://kapacitor:9092/`)
+@img[span-60](assets/img/kapacitor_config.png)
 @snapend
