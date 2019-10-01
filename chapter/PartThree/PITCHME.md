@@ -16,10 +16,10 @@ aller dans virtualbox pour désigner un dossier
 @img[span-100](assets/img/shareFolder.png)
 @snapend
 
-@snap[south span-100]
+@snap[south span-100 text-04]
 ouvrir un cmd ou powershell
 exécuter la commande `docker-machine restart`
-@css[text-04 text-orange](Cette commande stoppera tous les containers actifs)
+@css[text-orange](Cette commande stoppera tous les containers actifs)
 @snapend
 
 +++?color=white
