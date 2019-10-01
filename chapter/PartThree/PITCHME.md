@@ -13,7 +13,7 @@ aller dans virtualbox pour désigner un dossier
 @snapend
 
 @snap[east span-50]
-@img[span-100](assets/img/shareFolder.png)
+@img[span-100](assets/img/ShareFolder.png)
 @snapend
 
 @snap[south span-100 text-06]
