@@ -1,4 +1,4 @@
-@snap[north span-100 text-30]
+@snap[north span-100 text-05]
 # Allez plus loin
 @snapend
 @transition[none]
