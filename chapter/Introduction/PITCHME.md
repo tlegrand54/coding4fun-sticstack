@@ -3,5 +3,5 @@
 @snapend
 
 @snap[south span-100]
-  @img[span-100](assets/img/intro.png)
+  @img[span-60](assets/img/intro.png)
 @snapend
