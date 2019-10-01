@@ -19,7 +19,7 @@ aller dans virtualbox pour désigner un dossier
 @snap[south span-100]
 ouvrir un cmd ou powershell
 exécuter la commande `docker-machine restart`
-@css[text-25 text-red](Cette commande stoppera tous les containers actifs)
+@css[text-04 text-orange](Cette commande stoppera tous les containers actifs)
 @snapend
 
 +++?color=white
