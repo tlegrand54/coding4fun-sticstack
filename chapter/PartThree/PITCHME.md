@@ -13,8 +13,10 @@ configuration du partage de fichier avec docker
 aller dans virtualbox pour désigner un dossier @img[](assets/img/shareFolder.png)
 @snapend
 
-@snap[east span-50]
-ouvrir un cmd ou powershell et exécuter la commande `docker-machine restart`
+@snap[east span-50 text-left]
+ouvrir un cmd ou powershell
+
+exécuter la commande `docker-machine restart`
 @snapend
 
 +++
